@@ -5,15 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Primera Aplicacion</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css"> </link>
     <script src="js/bootstrap.min.js" ></script>
 </head>
 
 <body>
-<form>
+<form method="POST" action="registrar.php">
   <div class="mb-3">
     <label for="exampleInputEmail1" class="form-label">Identificador</label>
-    <input type="text" class="form-control" id="Identificador" name="identificador" aria-describedby="emailHelp">
+    <input type="text" class="form-control" id="identificador" name="identificador" aria-describedby="emailHelp">
     <div id="emailHelp" class="form-text"></div>
   </div>
   <div class="mb-3">
